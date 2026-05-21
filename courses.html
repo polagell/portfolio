@@ -2,44 +2,111 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos y Formación | Pol Agell</title>
   <link rel="stylesheet" href="style.css">
-  <title>Cursos - Pol Agell</title>
 </head>
 <body>
-  <header><h1>Cursos y formación</h1></header>
-  <section>
-    <div class="card">
-      <h3>Introducción a Python</h3>
-      <p><b>Plataforma:</b> Udemy</p>
-      <p><b>Fecha:</b> Octubre 2025</p>
-      <p><b>Aprendizaje:</b> Bucles, funciones, automatización con scripts</p>
+  <!-- Menú de Navegación Global -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Pol<span>Agell</span></a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="about.html" class="nav-link">Sobre mí</a>
+        <a href="courses.html" class="nav-link active">Cursos</a>
+        <a href="projects.html" class="nav-link">Proyectos</a>
+      </div>
     </div>
+  </nav>
 
-    <div class="card">
-      <h3>Automatización con Make.com</h3>
-      <p><b>Plataforma:</b> Make Academy</p>
-      <p><b>Aprendizaje:</b> Creación de workflows, conexión con APIs y Google Sheets</p>
-    </div>
+  <!-- Contenido Principal -->
+  <main class="container">
+    <header class="page-header">
+      <h1>Cursos y formación</h1>
+      <p>Estudios y certificaciones especializadas en desarrollo, automatización y herramientas avanzadas de IA.</p>
+    </header>
 
-    <div class="card">
-      <h3>Agenda 2030 y ODS</h3>
-      <p><b>Entidad:</b> SEPE</p>
-      <p><b>Aprendizaje:</b> Desarrollo sostenible, responsabilidad empresarial</p>
-      <a href="Diploma desarrollosost.pdf" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">Ver Certificado</a>
-    </div>
+    <section class="grid">
+      <!-- Tarjeta: Python -->
+      <div class="card">
+        <div class="card-content">
+          <h3>Introducción a Python</h3>
+          <p><b>Plataforma:</b> Udemy</p>
+          <p><b>Fecha:</b> Octubre 2025</p>
+          <p><b>Aprendizaje:</b> Fundamentos de programación, bucles, funciones y scripting para automatización.</p>
+          <div class="tech-list">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Scripts</span>
+            <span class="tech-tag">Programación</span>
+          </div>
+        </div>
+      </div>
 
-    <div class="card">
-      <h3>ChatGPT y la Inteligencia Artificial</h3>
-      <p><b>Estado:</b> Finalizado</p>
-      <a href="Diploma chatgpt.pdf" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">Ver Certificado</a>
-    </div>
+      <!-- Tarjeta: Make.com -->
+      <div class="card">
+        <div class="card-content">
+          <h3>Automatización con Make.com</h3>
+          <p><b>Plataforma:</b> Make Academy</p>
+          <p><b>Aprendizaje:</b> Construcción de escenarios avanzados, integración de APIs externas y automatizaciones con Google Workspace.</p>
+          <div class="tech-list">
+            <span class="tech-tag">Make.com</span>
+            <span class="tech-tag">APIs</span>
+            <span class="tech-tag">Workflows</span>
+          </div>
+        </div>
+      </div>
 
-    <div class="card">
-      <h3>Ciberseguridad</h3>
-      <p><b>Estado:</b> Finalizado</p>
-      <a href="Diploma ciberseguridad.pdf" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">Ver Certificado</a>
-    </div>
-  </section>
-  <footer><a href="index.html">Volver</a></footer>
+      <!-- Tarjeta: Agenda 2030 -->
+      <div class="card">
+        <div class="card-content">
+          <h3>Agenda 2030 y ODS</h3>
+          <p><b>Entidad:</b> SEPE</p>
+          <p><b>Aprendizaje:</b> Implementación del desarrollo sostenible y responsabilidad social en entornos empresariales.</p>
+          <div class="tech-list">
+            <span class="tech-tag">ODS</span>
+            <span class="tech-tag">Sostenibilidad</span>
+            <span class="tech-tag">RSC</span>
+          </div>
+        </div>
+        <a href="Diploma desarrollosost.pdf" target="_blank" class="btn btn-secondary">Ver Certificado</a>
+      </div>
+
+      <!-- Tarjeta: ChatGPT y la IA -->
+      <div class="card">
+        <div class="card-content">
+          <h3>ChatGPT y la Inteligencia Artificial</h3>
+          <p><b>Estado:</b> Completado</p>
+          <p><b>Aprendizaje:</b> Ingeniería de prompts avanzada y uso estratégico de modelos de lenguaje para optimización de flujos de trabajo.</p>
+          <div class="tech-list">
+            <span class="tech-tag">ChatGPT</span>
+            <span class="tech-tag">Prompting</span>
+            <span class="tech-tag">IA</span>
+          </div>
+        </div>
+        <a href="Diploma chatgpt.pdf" target="_blank" class="btn btn-secondary">Ver Certificado</a>
+      </div>
+
+      <!-- Tarjeta: Ciberseguridad -->
+      <div class="card">
+        <div class="card-content">
+          <h3>Ciberseguridad</h3>
+          <p><b>Estado:</b> Completado</p>
+          <p><b>Aprendizaje:</b> Principios de seguridad de la información, protección de datos, mitigación de riesgos y buenas prácticas digitales.</p>
+          <div class="tech-list">
+            <span class="tech-tag">Ciberseguridad</span>
+            <span class="tech-tag">Protección</span>
+            <span class="tech-tag">Redes</span>
+          </div>
+        </div>
+        <a href="Diploma ciberseguridad.pdf" target="_blank" class="btn btn-secondary">Ver Certificado</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página unificado -->
+  <footer>
+    <p>© 2025 Pol Agell — <a href="https://github.com/polagell" target="_blank">GitHub</a> | <a href="mailto:pol.agpa@gmail.com">pol.agpa@gmail.com</a></p>
+  </footer>
 </body>
 </html>
